@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Restoganic | Fresh Food</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    
 </head>
 <body>
-    <div class="min-h-screen bg-[#E9E8E3]">
+    <div class="flex flex-col h-full bg-[#E9E8E3]">
         
-            <x-navbar/>
-            <x-hero/>
+            @include('marketing._components.navbar')
+            @include('marketing._components.hero')
         
             
         

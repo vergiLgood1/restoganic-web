@@ -13,15 +13,10 @@
   
         <!-- Buttons -->
         <div class="mt-7 grid gap-3 w-full sm:inline-flex">
-          <a class="py-4 px-12 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-gray-800 text-white disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Start Shopping
+          <a type="button" class="inline-flex items-center px-12 py-4 bg-gray-800 rounded-full border border-transparent font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 focus:bg-gray-700 active:bg-gray-900 focus:outline-none transition ease-in-out duration-150" href="#">
+            <span class="mr-2">Start shopping</span>
             <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-          </a>
-          <a class="py-4 px-12 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-secondary text-gray-800 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Start Shopping
-            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-          </a>
-        
+          </a>    
         </div>
         <!-- End Buttons -->
   
@@ -107,7 +102,7 @@
       <!-- End Col -->
   
       <div class="relative ms-4">
-        <img class="w-full rounded-md" src="https://images.unsplash.com/photo-1665686377065-08ba896d16fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&h=800&q=80" alt="Image Description">
+        <img class="w-full rounded-md" src="/images/img-home3.jpg" alt="Image Description">
         <div class="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
   
         <!-- SVG-->

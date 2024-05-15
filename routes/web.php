@@ -4,11 +4,11 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('marketing');
+    return view('/marketing/page');
 });
 
 Route::middleware('guest')->group(function(){
-    Route::get('/marketing')->name('marketing');
+    Route::get('/marketing/page')->name('page');
 });
 
 Route::middleware('auth')->group(function () {

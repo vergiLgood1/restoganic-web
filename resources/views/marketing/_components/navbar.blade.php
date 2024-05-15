@@ -17,7 +17,7 @@
           Sign in
         </button>
         
-        <button type="button" class="hidden py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent bg-secondary text-black hover:bg-lime-600 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-lime-500">
+        <button type="button" class="hidden py-2 px-3 items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent bg-secondary text-black hover:bg-lime-600 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-lime-500">
         <x-tabler-affiliate class="h-4 w-4"/>
           Cart
         </button>
@@ -35,16 +35,16 @@
       <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block md:w-auto md:basis-auto md:order-2 md:col-span-6">
         <div class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:justify-center md:items-center md:gap-y-0 md:gap-x-7 md:mt-0">
           <div>
-            <a class="relative inline-block font-semibold text-secondary before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 dark:text-white" href="#" aria-current="page">Services</a>
+            <a class="relative inline-block font-semibold text-secondary before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 dark:text-white" href="#" aria-current="page">Home</a>
           </div>
           <div>
-            <a class="inline-block font-medium text-black hover:text-secondary dark:text-white dark:hover:text-neutral-300" href="#">Shop</a>
+            <a class="inline-block font-medium text-black hover:text-secondary dark:text-white dark:hover:text-neutral-300" href="#">Service</a>
+          </div>
+          <div>
+            <a class="inline-block font-medium text-black hover:text-secondary dark:text-white dark:hover:text-secondary" href="#">Shop</a>
           </div>
           <div>
             <a class="inline-block font-medium text-black hover:text-secondary dark:text-white dark:hover:text-secondary" href="#">Delivery</a>
-          </div>
-          <div>
-            <a class="inline-block font-medium text-black hover:text-secondary dark:text-white dark:hover:text-secondary" href="#">Pages</a>
           </div>
           <div>
             <a class="inline-block font-medium text-black hover:text-secondary dark:text-white dark:hover:text-secondary" href="#">Boxes</a>
